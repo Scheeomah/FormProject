@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  width: 240%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(47, 234, 47);
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #f1a2a2;
+  border-radius: 5px;
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  background-color: green;
+}
+.container form label {
+  margin-top: 14px;
+  font-weight: bold;
+  display: flex;
+}
+.container form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #f1a2a2;
+  border-radius: 4px;
+}
+.container form button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: rgb(4, 26, 4);
+  color: #e6f7e6;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 12px;
+  color: #f1a2a2;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.container form button:hover {
+  background: rgb(2, 58, 7);
+}
+.container .output {
+  background-color: #e6f7e6;
+  border: 1px solid green;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}/*# sourceMappingURL=example.css.map */

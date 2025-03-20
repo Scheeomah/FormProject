@@ -1,0 +1,80 @@
+@import './home.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    width: 240%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color:$primary-color;
+   
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 1px solid $border-color;
+        border-radius: 5px;
+        width: 500px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        position: relative;
+        background-color: $success-border;
+
+        label {
+            margin-top: 14px;
+            font-weight: bold;
+            display: flex;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid $border-color;
+            border-radius: 4px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            background: $button-color;
+            color: $success-bg;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            padding: 12px;
+            color: $border-color;
+            border-radius: 5px;
+            font-size: 18px;
+
+            &:hover {
+                background: $hover-color;
+            }
+        }
+    }
+
+    .output {
+        background-color: $success-bg;
+        border: 1px solid $success-border;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}
